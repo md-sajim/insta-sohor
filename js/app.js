@@ -1,4 +1,3 @@
-console.log("sajim");
 let posts = [];
 
 const likedPostsId = [];
@@ -53,7 +52,6 @@ const switchTab = (id) => {
   }
 };
 const createPost = (post) => {
-  console.log(post.userImage);
   const div = document.createElement("article");
   div.classList.add("post");
   div.innerHTML = `

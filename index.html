@@ -88,10 +88,11 @@
         <h1>Reported posts</h1>
       </div>
     </main>
+    <!-- Question and Answer -->
     <section>
       <div class="container bg-success bg-opacity-10 p-4 rounded mb-4">
-        <h2>Javascript কি ভাবে কাজ করে?</h2>
-        <p>
+        <h2><u>Javascript কি ভাবে কাজ করে ?</u></h2>
+        <p class="text-danger">
           Javascript কি ভাবে কাজ করে তা বুঝার আগে বুঝতে হবে ওয়েব ব্রাউজার এবং
           DOM সম্পর্কে। ওয়েব ব্রাউজার একটি ওয়েব পেজ লোড করে,HTML Parser করে এর
           বিসয়বস্তু DOM(ডকুমেন্ট অবজেক্ট মডেল) নামে পরিচিত তৈরি করে।একই সাথে DOM
@@ -100,10 +101,29 @@
           Inlinecode লোডে করে কিন্তু code টি Run করে না,HTML ও CSS এর জন্য
           অপেহ্মা করে।HTML ও CSS লোড হয়ে গেলে প্রয়োজন অনুযায় Javascript কার্যকর
           হয়। এর ফলে DOM Javascript code দ্বারা আপডেট হয় এবং ব্রাউজার দ্বারা
-          রেন্ডার করা হয়। Javascript কাজ করার জন্য আদেশ টা গুরুপ্তপূর্ন।
+          রেন্ডার করা হয়। Javascript কাজ করার জন্য আদেশ টা গুরুপ্তপূর্ন। এবং
+          Javascript উপর থেকে নিচর দিকে লাইন বাই লাইন পোগরাম রিড করে।
         </p>
-        <h2>javascript Eventloop কি কাজ করে?</h2>
-        <h2>Local Storage and Session Storage মধ্যে পার্থক্য</h2>
+        <h2><u>Local Storage and Session Storage মধ্যে পার্থক্য ?</u></h2>
+        <p class="text-danger">
+          Local Storage and Session Storage মধ্যে প্রধান প্রধান পার্থক্য গুলোঃ <br> 
+          Local Storage
+          <ul>
+            <li>LocalStorage এর মধ্য়ে Data কে Permanent Store করা যায়</li>
+            <li> ব্রাউজার Close করলেও Data Delete হয় না</li>
+            <li>LocalStorage 10MB Memory নিয়ে কাজ করে</li>
+          </ul>
+        </p>
+        <p class="text-danger">
+          Session Storage
+          <ul>
+            <li>SessionStorage এর মাধ্য়মে Data কে Temperarily Store করা যায়</li>
+            <li>ব্রাউজার Close করলে Data Delete হয়ে যায়</li>
+            <li>SessionStorage 5MB Memory নিয়ে কাজ করে</li>
+          </ul>
+        </p>
+        <h2><u>javascript Eventloop কি কাজ করে ?</u></h2>
+        <p class="text-danger"></p>
       </div>
     </section>
     <footer></footer>
